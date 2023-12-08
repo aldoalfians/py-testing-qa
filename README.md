@@ -61,13 +61,3 @@ check test coverage
     pytest --cov=myproj tests/
 
 
-### Tugas uas 2
-Lihat https://github.com/agungperdananto/SimpleCart/pulls
-untuk contoh check yang gagal dan berhasil.
-
-CI di sini belum menghandle pytest dan pytest-cov
-
-tugasnya adalah edit `.github/workflows/build.yml` di branch `dev-test`  supaya CI dapat menghandle pytest dan pytest cov 
-https://github.com/agungperdananto/SimpleCart/blob/dev-test/.github/workflows/build.yml
-
-lalu buat contoh pull request untuk test yang gagal dan berhasil.
